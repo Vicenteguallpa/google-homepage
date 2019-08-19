@@ -1,3 +1,19 @@
+/* COLORS */
+:root {
+    --white: #FFFFFF;
+    --gray-95-light: #F2F2F2;
+    --gray-89-light: #E4E4E4;
+    --blue-89-light: #DFE1E5;
+    --gray-39-light: #5F6368;
+    --black: #000000;
+}
+
+/* FONTS */
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* MAIN SEARCH */
 
 .search {
@@ -15,16 +31,13 @@
 
 #search_bar {
     position: inherit;
-    border: 1px;
-    border-style: solid;
-    border-color: #dfe1e5;
-    padding: 13px 15px;
+    border: 1px solid var(--blue-89-light);
+    padding: 11px 15px;
     top: 119px;
     width: 550px;
     border-radius: 23px;
-    background-color: white;
+    background-color: var(--white);
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #search_btns_div {
@@ -37,13 +50,12 @@
 
 #search_btns_div button {
     position: inherit;
-    background-color: #f2f2f2;
+    background-color: var(--gray-95-light);
     padding: 8px 17px;
     border-style: none;
     border-radius: 2px;
-    color: #5F6368;
+    color: var(--gray-39-light);
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif
 }
 
 #lucky {
@@ -61,8 +73,8 @@
     position: absolute;
     top: 24px;
     font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: var(--black);
+    opacity: 0.75;
     text-decoration: none;
 }
 
@@ -112,16 +124,15 @@
     left: 0;
     bottom: 0;
     margin: 0;
-    background-color: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
+    background-color: var(--gray-95-light);
+    border-top: 1px solid var(--gray-89-light);
 }
 
 .footer a {
     position: absolute;
     top: 13px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #5f6368;
+    color: var(--gray-39-light);
     font-size: small;
 }
 
