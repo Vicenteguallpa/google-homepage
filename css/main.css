@@ -1,0 +1,150 @@
+/* MAIN SEARCH */
+
+.search {
+    position: absolute;
+    top: 198px;
+    left: 35.1vw;
+    height: 228px;
+    width: 590px;
+}
+
+#google_logo {
+    position: inherit;
+    left: 150px;
+}
+
+#search_bar {
+    position: inherit;
+    border: 1px;
+    border-style: solid;
+    border-color: #dfe1e5;
+    padding: 13px 15px;
+    top: 119px;
+    width: 550px;
+    border-radius: 23px;
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#search_btns_div {
+    position: inherit;
+    bottom: 0;
+    left: 138px;
+    height: 30px;
+    width: 285px;
+}
+
+#search_btns_div button {
+    position: inherit;
+    background-color: #f2f2f2;
+    padding: 8px 17px;
+    border-style: none;
+    border-radius: 2px;
+    color: #5F6368;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#lucky {
+    right: 0;
+}
+
+/* NAV */
+.nav {
+    display: inline-block;
+    height: 5vh;
+    width: 99vw;
+}
+
+.nav a {
+    position: absolute;
+    top: 24px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+#about {
+    left: 25px;
+}
+
+#store {
+    left: 78px;
+}
+
+#gmail {
+    right: 178px;
+}
+
+#images {
+    right: 120px;
+}
+
+#apps {
+    top: 23px;
+    right: 82px;
+}
+
+#apps_logo {
+    height: 16px;
+    width: 16px;
+}
+
+#account {
+    top: 15px;
+    right: 28px;
+}
+
+#account_logo {
+    height: 32px;
+    width: 33px;
+}
+
+/* FOOTER */
+
+.footer {
+    display: inline-block;
+    position: absolute;
+    height: 4.2vh;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer a {
+    position: absolute;
+    top: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: small;
+}
+
+#advertising {
+    left: 30px;
+}
+
+#business {
+    left: 122px;
+}
+
+#how_search_works {
+    left: 203px;
+}
+
+#privacy {
+    right: 168px;
+}
+
+#terms {
+    right: 105px;
+}
+
+#settings {
+    right: 30px;
+}
